@@ -1,20 +1,40 @@
 // import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args){
-        StepTracker S = new StepTracker(10000);
-        System.out.println(S.activeDays());
-        System.out.println(S.averageSteps());
-        S.addDailySteps(9000);
-        S.addDailySteps(5000);
-        System.out.println(S.activeDays());
-        System.out.println(S.averageSteps());
-        S.addDailySteps(13000);
-        System.out.println(S.activeDays());
-        System.out.println(S.averageSteps());
-        S.addDailySteps(23000);
-        S.addDailySteps(1111);
-        System.out.println(S.activeDays());
-        System.out.println(S.averageSteps());
+
+        String s = "abcdefghijklmnopqrstuvwxyz"
+        String s1 = "abcdefghijklmnopqrstuvwxyz"
+
+        // boolean a = true;
+        // boolean b = true;
+        // if (a)
+        // if (b)
+        // System.out.println("here");
+        // else System.out.println("other here");
+
+        // if (a)
+        //     if (b) 
+        //         System.out.println("here");
+        //     else 
+        //         System.out.println("other here");
+
+        System.out.println(Math.pow(850179968765.0, 0.5)==Math.sqrt(850179968765.0));
+
+        // StepTracker S = new StepTracker(10000);
+        // System.out.println(S.activeDays());
+        // System.out.println(S.averageSteps());
+        // S.addDailySteps(9000);
+        // S.addDailySteps(5000);
+        // System.out.println(S.activeDays());
+        // System.out.println(S.averageSteps());
+        // S.addDailySteps(13000);
+        // System.out.println(S.activeDays());
+        // System.out.println(S.averageSteps());
+        // S.addDailySteps(23000);
+        // S.addDailySteps(1111);
+        // System.out.println(S.activeDays());
+        // System.out.println(S.averageSteps());
 
 //        dog dash = new dog("penny", 10, 4);
 //        dash.bark();
